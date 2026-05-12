@@ -260,9 +260,14 @@ export function Search() {
                         </span>
                       ))}
                     </div>
-                    <button className="w-full bg-orange-600 hover:bg-orange-700 text-white py-2 px-4 rounded-lg transition-colors">
+                    <a
+                      href="https://example.com/recipe-page"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="w-full inline-block text-center bg-orange-600 hover:bg-orange-700 text-white py-2 px-4 rounded-lg transition-colors"
+                    >
                       View Recipe
-                    </button>
+                    </a>
                   </div>
                 </div>
               ))}
